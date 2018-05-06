@@ -6,7 +6,7 @@ import Title from '../components/Title';
 class App extends React.Component {
     constructor(props){
         super(props);
-        this.stste = {
+        this.state = {
             data: []
         };
     }

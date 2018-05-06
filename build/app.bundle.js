@@ -7953,7 +7953,7 @@ var App = function (_React$Component) {
 
         var _this = _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).call(this, props));
 
-        _this.stste = {
+        _this.state = {
             data: []
         };
         return _this;
@@ -7983,6 +7983,7 @@ var App = function (_React$Component) {
             return _react2.default.createElement(
                 'div',
                 { className: _App2.default.TodoApp },
+                _react2.default.createElement(_Title2.default, { title: 'Tytu\u0142 aplikacji', length: this.state.data.length }),
                 '// Tu pojawi\u0105 si\u0119 komponenty aplikacj'
             );
         }
